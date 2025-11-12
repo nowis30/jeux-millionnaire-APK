@@ -17,7 +17,7 @@ Héritier Millionnaire est un jeu de simulation financière où vous devez :
 
 **Télécharger l'AAB:** [heritier-millionnaire-1.0.2(3)-20251111-1950.aab](../releases/heritier-millionnaire-1.0.2(3)-20251111-1950.aab) (37.26 MB)
 
-**Télécharger l'APK:** [heritier-millionnaire-1.0.2(3)-20251111-1950.apk](../releases/heritier-millionnaire-1.0.2(3)-20251111-1950.apk) (37.66 MB)
+**Télécharger l'APK:** [heritier-millionnaire-1.0.2(3)-20251111-1950.apk](https://github.com/nowis30/jeux-millionnaire-APK/releases/download/heritier-millionnaire/heritier-millionnaire-1.0.2.3.-20251111-1950.apk) (37.66 MB)
 
 #### Nouveautés
 - Navigation tutoriel mobile avec balayage gauche/droite (gestes) pour passer d'un volet à l'autre
@@ -27,14 +27,14 @@ Héritier Millionnaire est un jeu de simulation financière où vous devez :
 #### Signature
 - APK/AAB signés avec le keystore de production
 - Validité: jusqu'en 2050
-- SHA256: `07:CD:F8:6C:75:2D:78:1D:E8:B7:05:02:5E:B6:2B:BA`
+- SHA256 APK: `fc069fd7b4360b69b2ad0510bf048fd94c0d726e312d49aa63a78905a78a57fe`
 
 ## 🚀 Installation
 
 ### Méthode 1 : Téléchargement direct
 1. **Activer les sources inconnues** sur votre appareil Android :
    - Paramètres → Sécurité → Autoriser les sources inconnues
-2. **Télécharger l'APK** en cliquant sur le lien ci-dessus
+2. **Télécharger l'APK** en cliquant sur le lien ci-dessus (diffusé aussi via https://nowis.store)
 3. **Ouvrir le fichier** téléchargé
 4. **Suivre les instructions** d'installation
 5. **Lancer l'application** !
