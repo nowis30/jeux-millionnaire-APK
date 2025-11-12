@@ -11,23 +11,21 @@ Héritier Millionnaire est un jeu de simulation financière où vous devez :
 - 💰 **Gérer votre portefeuille** - Optimiser vos investissements
 - 🏆 **Grimper au classement** - Devenir l'héritier #1
 
-## � Dernière version
+## Dernière version
 
-### v1.0 - Release Production (9 novembre 2025)
+### v1.0.2 - Tutoriel mobile amélioré (11 novembre 2025)
 
-**📥 Télécharger:** [heritier-millionnaire-v1.0.apk](https://github.com/nowis30/jeux-millionnaire-APK/raw/main/heritier-millionnaire-v1.0.apk) (18.23 MB)
+**Télécharger l'AAB:** [heritier-millionnaire-1.0.2(3)-20251111-1950.aab](../releases/heritier-millionnaire-1.0.2(3)-20251111-1950.aab) (37.26 MB)
 
-#### ✨ Fonctionnalités
-- ✅ AdMob production (publicités interstitielles + récompensées)
-- ✅ Bandeau de consentement RGPD
-- ✅ Musique de fond et effets sonores
-- ✅ Synchronisation multijoueur en temps réel
-- ✅ Gestion de portefeuille complète
-- ✅ Quiz avec IA générative
-- ✅ Système de paris et bonus
+**Télécharger l'APK:** [heritier-millionnaire-1.0.2(3)-20251111-1950.apk](../releases/heritier-millionnaire-1.0.2(3)-20251111-1950.apk) (37.66 MB)
 
-#### 🔐 Signature
-- APK signé avec keystore de production
+#### Nouveautés
+- Navigation tutoriel mobile avec balayage gauche/droite (gestes) pour passer d'un volet à l'autre
+- Export web et Capacitor sync remis à jour post-correctif
+- Build Android 1.0.2 (code 3) signée production
+
+#### Signature
+- APK/AAB signés avec le keystore de production
 - Validité: jusqu'en 2050
 - SHA256: `07:CD:F8:6C:75:2D:78:1D:E8:B7:05:02:5E:B6:2B:BA`
 
@@ -43,7 +41,7 @@ Héritier Millionnaire est un jeu de simulation financière où vous devez :
 
 ### Méthode 2 : ADB (pour développeurs)
 ```bash
-adb install heritier-millionnaire-v1.0.apk
+adb install "heritier-millionnaire-1.0.2(3)-20251111-1950.apk"
 ```
 
 ## 📱 Prérequis
@@ -67,6 +65,8 @@ L'application respecte le RGPD et affiche un bandeau de consentement lors du pre
 
 | Version | Date | Taille | Type | Changements |
 |---------|------|--------|------|-------------|
+| 1.0.2 | 11 nov 2025 | 37.3 MB | Release | Gestes de balayage tutoriel, build 1.0.2 code 3 |
+| 1.0.1 | 11 nov 2025 | 37.3 MB | Release | Correctif consentement AdMob, centre confidentialité, page debug |
 | 1.0 | 9 nov 2025 | 18.23 MB | Release | Production avec AdMob, RGPD, signature |
 | 0.x | 6 nov 2025 | - | Debug | Builds de développement |
 
