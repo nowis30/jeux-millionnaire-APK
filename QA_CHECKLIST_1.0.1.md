@@ -1,13 +1,13 @@
 # QA Checklist - Version 1.0.1 (11 nov 2025)
 
 ## Préparation
-- [ ] Installer l'APK `releases/heritier-millionnaire-1.0.1(2)-20251111-1842.apk` sur 2 appareils (Android 13 + Android 10)
+- [x] Installer l'APK `releases/heritier-millionnaire-1.0.1(2)-20251111-1842.apk` sur 2 appareils (Android 13 + Android 10)
 - [ ] Réinitialiser les données de l'application entre chaque scénario (`Paramètres -> Applications -> Effacer les données`)
 - [ ] Activer les logs via `adb logcat | findstr AdMob` si un PC est disponible
 
 ## Flux consentement RGPD
-- [ ] Premier lancement: bandeau UMP s'affiche, accepter les pubs personnalisées
-- [ ] Vérifier que `/confidentialite` reflète l'état "Pubs personnalisées"
+- [x] Premier lancement: bandeau UMP s'affiche, accepter les pubs personnalisées
+- [x] Vérifier que `/confidentialite` reflète l'état "Pubs personnalisées"
 - [ ] Revenir au menu, forcer "Pubs non personnalisées" puis redémarrer l'app -> vérifier la persistance
 - [ ] Réinitialiser le consentement depuis `/confidentialite` et s'assurer que le bandeau réapparaît au prochain lancement
 
@@ -18,8 +18,8 @@
 - [ ] Bouton "Charger récompensée" puis "Afficher récompensée" déclenchent la récompense (vérifier log `onUserEarnedReward`)
 
 ## Parcours principal
-- [ ] Navigation complète du menu: Bonus, Bourse, Quiz, Tutoriel, etc.
-- [ ] Lancer une partie de quiz et valider qu'un score s'enregistre
+- [x] Navigation complète du menu: Bonus, Bourse, Quiz, Tutoriel, etc.
+- [x] Lancer une partie de quiz et valider qu'un score s'enregistre
 - [ ] Vérifier la page Portefeuille hors connexion (activer mode avion) -> lecture des données locales OK
 - [ ] Jouer avec le son activé/désactivé -> pas de crash audio
 
