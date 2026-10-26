@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "nowis30/mobile-jeux-millionnaire",
+  "sourceCommit": null,
+  "note": "Source commit and Android signing identity are not established for these historical binaries.",
+  "artifacts": [
+    {
+      "file": "heritier-millionnaire-1.0.2(3)-20251111-1950.aab",
+      "bytes": 37260728,
+      "sha256": "60b2027779a7ac67bed09f29b28e4099295ecf9d5efb3d7f7bd5522731f0ea0c"
+    },
+    {
+      "file": "heritier-millionnaire-1.0.2(3)-20251111-1950.apk",
+      "bytes": 37599059,
+      "sha256": "fc069fd7b4360b69b2ad0510bf048fd94c0d726e312d49aa63a78905a78a57fe"
+    },
+    {
+      "file": "heritier-millionnaire-1.0.7(9)-20251114-1513.aab",
+      "bytes": 9450700,
+      "sha256": "048d5673dde931536d7f353c4a13018647c1b523023df3c5295a8badb1c1614c"
+    },
+    {
+      "file": "heritier-millionnaire-1.0.7(9)-20251114-1622.aab",
+      "bytes": 9500070,
+      "sha256": "4d52f372108939bf3ad94584c23c6091258d99ef70e647f1bcf41ed4d972da86"
+    },
+    {
+      "file": "heritier-millionnaire-1.0.7(9)-20251114-1728.aab",
+      "bytes": 9499328,
+      "sha256": "6e69f643b62e0f85ecc99cf829bf3152481754736f31fabca367bb6a5c4340a2"
+    },
+    {
+      "file": "heritier-millionnaire-1.0.7(9)-20251114-1745.aab",
+      "bytes": 9492543,
+      "sha256": "a6d502e742c8a2af41672543f38b9878a4a9945b1b1c012509958f012155e22c"
+    },
+    {
+      "file": "heritier-millionnaire-1.1.0(10)-20251114-1828.aab",
+      "bytes": 9491886,
+      "sha256": "4376d6df0c76cc87167541b122dd1ebe62faecf634d3a3f968962b326443fc55"
+    },
+    {
+      "file": "heritier-millionnaire-1.1.0(10)-20251114-1840.aab",
+      "bytes": 9491920,
+      "sha256": "b61ae0ecf5ede84cdac6b5e884c20c4dfa689247b5028b2aed2cfad134cb4e6b"
+    },
+    {
+      "file": "heritier-millionnaire-1.1.1(11)-20251114-1844.aab",
+      "bytes": 9491963,
+      "sha256": "76fadf13d3400e39ffc673285a0455700621381fcf7605c4be5cf720e90669c4"
+    },
+    {
+      "file": "heritier-millionnaire-1.1.1(11)-20251114-1853.aab",
+      "bytes": 9492117,
+      "sha256": "c1383c4c7e3dc1c0387b26116d8f68669c86d104989045ca56a1c730a65ec462"
+    },
+    {
+      "file": "heritier-millionnaire-1.1.2(12)-20251114-1921.aab",
+      "bytes": 9310229,
+      "sha256": "6c4de6223cdcd251343e2a4e1712231d8620a6378a30ba474808bac9fc4760ac"
+    },
+    {
+      "file": "heritier-millionnaire-1.1.2(12)-20251115-0135.aab",
+      "bytes": 9340208,
+      "sha256": "94ef825514dd11b8244efb5bc0c55757f9cd2a850382d23a5e5b43d3148dc309"
+    },
+    {
+      "file": "heritier-millionnaire-1.1.2(12)-20251115-0143.aab",
+      "bytes": 9337996,
+      "sha256": "363e7d34920b86ea45dae5a8167648692bc78ab0e93b976c408206338b6aa6c2"
+    },
+    {
+      "file": "heritier-millionnaire-1.1.2(12)-20251115-0158.aab",
+      "bytes": 9339122,
+      "sha256": "471324ca80bd3c96217c346aad24ff7c294021b643ced0c23afe154b6efdc91e"
+    },
+    {
+      "file": "heritier-millionnaire-1.1.2(12)-20251115-0212.aab",
+      "bytes": 9340147,
+      "sha256": "9d733af9f7512af07c59bd51cb4186156d3bd85e9dfb9d633085e2add35f07fb"
+    },
+    {
+      "file": "heritier-millionnaire-1.1.2(12)-20251115-0303.aab",
+      "bytes": 9340882,
+      "sha256": "e142ef44a6b3a2dfd36fdf03c67f9caf023a3eac8fdf4701e7233c5189fb994e"
+    },
+    {
+      "file": "heritier-millionnaire-1.1.2(12)-20251115-0313.aab",
+      "bytes": 9318664,
+      "sha256": "bfb3a327fd0a3dfe0b7e2b2d066dfc70c24ac30cf54c0d5dcd6736d764e291fd"
+    },
+    {
+      "file": "heritier-millionnaire-1.1.2(12)-20251115-1126.aab",
+      "bytes": 9318664,
+      "sha256": "bfb3a327fd0a3dfe0b7e2b2d066dfc70c24ac30cf54c0d5dcd6736d764e291fd"
+    },
+    {
+      "file": "heritier-millionnaire-1.1.2(12)-20251115-1136.aab",
+      "bytes": 9318664,
+      "sha256": "bfb3a327fd0a3dfe0b7e2b2d066dfc70c24ac30cf54c0d5dcd6736d764e291fd"
+    },
+    {
+      "file": "heritier-millionnaire-1.1.2(12)-20251115-1209.aab",
+      "bytes": 9318664,
+      "sha256": "bfb3a327fd0a3dfe0b7e2b2d066dfc70c24ac30cf54c0d5dcd6736d764e291fd"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251114-1513.apk",
+      "bytes": 14262507,
+      "sha256": "5e22215a99249e84ffeba53f0ad85c3d053a8f295abe119f46d9aa39fdab274a"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251114-1622.apk",
+      "bytes": 14320671,
+      "sha256": "7d4f413c24532d9f99c2a285ef829aa6ec0e22ec3d06ec4926db9754bc4b8c34"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251114-1728.apk",
+      "bytes": 14319661,
+      "sha256": "29a136775f956809d422ea084a85b34d05df1b81bfdc0cddb88466bf1f6457fa"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251114-1745.apk",
+      "bytes": 14311466,
+      "sha256": "59ec6e043c432e114103fd3a5ac4c8040b7db9db052047b58b0769accf6a50fa"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251114-1828.apk",
+      "bytes": 14310882,
+      "sha256": "a08a72febc5984fe78e3a5f684a8655663111b61b1169f0e0f3bdaea3febbf96"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251114-1840.apk",
+      "bytes": 14310902,
+      "sha256": "5c978bd2e137968336a9c1d7ddedc204977cd2b7cc4bb324d820dd87a4a3bb1d"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251114-1844.apk",
+      "bytes": 14310949,
+      "sha256": "6f26a7f91673f263355e060e6ffc4690fa71e377daaa4a98e34e0592a8f20236"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251114-1853.apk",
+      "bytes": 14310910,
+      "sha256": "117478bfecc8238da1a9fd6a6893def7ae6a8ef64fc1d24efae73c7e243cf307"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251114-1921.apk",
+      "bytes": 13470828,
+      "sha256": "2d6b911bb6fc0fccd78596d1900919ab8be0d8c2d229a462b1e0b3468b4e6019"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251115-0135.apk",
+      "bytes": 13507733,
+      "sha256": "82f7518982d2cde083f74f9b38cb0704a65fb122418dabd8484705bd64e8e006"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251115-0143.apk",
+      "bytes": 13505338,
+      "sha256": "3108fda9b96a804dba1fbc6e14fee7ea4dd63747ab7b1ddbc58af29f168649d3"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251115-0158.apk",
+      "bytes": 13506535,
+      "sha256": "037901bdfc7cc7ccdc53718ec66863fe692547f1d9f6cfee695ad6d7849abf39"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251115-0212.apk",
+      "bytes": 13507637,
+      "sha256": "9953e2b26212533fbda78c3f86c515e756af3ba58ebedbf1a768e5f719ae7ee7"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251115-0303.apk",
+      "bytes": 13510108,
+      "sha256": "05bf850ad344d906554ce54bbf3747720c07700650823abc3362be43dc48f2cb"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251115-0313.apk",
+      "bytes": 13482979,
+      "sha256": "f903789b75bc3b7c9e4f0c10e10c3b4d235652768ac71b5d45565ef32a2f7039"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251115-1126.apk",
+      "bytes": 13482987,
+      "sha256": "32a3dc0e11c9c2ce30672520181041e82fc4b544aa3dece5fde7d87a9aa54964"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251115-1136.apk",
+      "bytes": 13482994,
+      "sha256": "fd72bb5c72367a651231a74bf9ac68daf34c338f778c5daf96f49c163bc3e6c7"
+    },
+    {
+      "file": "heritier-millionnaire-debug-20251115-1209.apk",
+      "bytes": 13482963,
+      "sha256": "8ee3c1ce29d4ad40586770daf39ba1ad1b44474f7a90873ba4fb7260b0f8b42c"
+    },
+    {
+      "file": "heritier-millionnaire-debug-auth-fixed-20251115-0237.apk",
+      "bytes": 13508783,
+      "sha256": "17d793fb4cc87b1a9cde81848add0b73ddaed67fdf199f7683cd1e543d3e4fd5"
+    },
+    {
+      "file": "heritier-millionnaire-debug-fullscreen-20251115-0224.apk",
+      "bytes": 13507646,
+      "sha256": "d1548ac37545b22328395369e08555fd72dc78ad9c3d9c7d0925ba5efb49336c"
+    },
+    {
+      "file": "heritier-millionnaire-debug-postmessage-fix-20251115-0255.apk",
+      "bytes": 13509071,
+      "sha256": "539125e918b7e7cdc6940be08d0e1db84bd331cb085ab062247e2e07b1d6d35c"
+    },
+    {
+      "file": "heritier-millionnaire-release-20251119-0026.aab",
+      "bytes": 10255762,
+      "sha256": "eb46fb78332e36d6bba8da723f56e48087836b9b0392fae3eb9fb7a04630e39e"
+    },
+    {
+      "file": "heritier-millionnaire-v1.0.2.apk",
+      "bytes": 37601432,
+      "sha256": "fae533bf8cb1d011b80f92ebfd9cc4f28bb8263d9d8c06fd9ba763bfa6c9b904"
+    },
+    {
+      "file": "heritier-millionnaire-v1.1.2-auth-fixed.aab",
+      "bytes": 9339844,
+      "sha256": "5da32612ebd16bfa936a350acd4108d27f88632fac626d8afe4589c359d67d7b"
+    },
+    {
+      "file": "heritier-millionnaire-v1.1.2-fullscreen.aab",
+      "bytes": 9340159,
+      "sha256": "8d6998e4bcd71727934244d7bf4893500f890c24cf9f7b592a707c10ffb0c3da"
+    },
+    {
+      "file": "heritier-millionnaire-v1.1.2-postmessage-fix.aab",
+      "bytes": 9340085,
+      "sha256": "99cb3b1f0cc8b65be4d0dbd7847addb125fec1aa53d24aeb92d2561940329755"
+    }
+  ]
+}

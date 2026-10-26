@@ -1,83 +1,31 @@
-# 📱 Héritier Millionnaire - APK Android
+# Héritier Millionnaire — distribution Android
 
-Application mobile Android du jeu **Héritier Millionnaire** - Simulateur de gestion immobilière, boursière et quiz de culture financière.
+Ce dépôt conserve les APK et AAB historiques. Le code de l’application Android est maintenu dans [mobile-jeux-millionnaire](https://github.com/nowis30/mobile-jeux-millionnaire), le client dans [client-jeux-millionnaire](https://github.com/nowis30/client-jeux-millionnaire), et l’API dans [server-jeux-millionnaire](https://github.com/nowis30/server-jeux-millionnaire).
 
-## 🎮 À propos du jeu
+## Télécharger une version publiée
 
-Héritier Millionnaire est un jeu de simulation financière où vous devez :
-- 🏠 **Investir dans l'immobilier** - Acheter et gérer des propriétés
-- 📈 **Trader en bourse** - Acheter/vendre des actions sur les marchés
-- 🎯 **Participer à des quiz** - Tester vos connaissances financières
-- 💰 **Gérer votre portefeuille** - Optimiser vos investissements
-- 🏆 **Grimper au classement** - Devenir l'héritier #1
+Consultez les [GitHub Releases](https://github.com/nowis30/jeux-millionnaire-APK/releases). Un fichier présent dans la branche principale, un build `debug` ou un numéro figurant dans son nom ne constitue pas une publication validée. Un AAB sert à la distribution par une boutique; ce n’est pas un APK installable directement.
 
-## Dernière version
+Le [manifeste des fichiers](artifact-manifest.json) donne le nom, la taille et le SHA-256 des binaires suivis par Git. Ces empreintes détectent une modification du fichier; elles ne certifient ni son signataire Android, ni son fonctionnement, ni le commit source qui a servi à le compiler. Les anciens binaires ne sont pas reconstruits par cette maintenance.
 
-### v1.0.2 - Tutoriel mobile amélioré (11 novembre 2025)
+## Vérifier les fichiers
 
-**Télécharger l'AAB:** [heritier-millionnaire-1.0.2(3)-20251111-1950.aab](../releases/heritier-millionnaire-1.0.2(3)-20251111-1950.aab) (37.26 MB)
+Avec Python 3, après clonage :
 
-**Télécharger l'APK:** [heritier-millionnaire-1.0.2(3)-20251111-1950.apk](https://github.com/nowis30/jeux-millionnaire-APK/releases/download/heritier-millionnaire/heritier-millionnaire-1.0.2.3.-20251111-1950.apk) (37.66 MB)
-
-#### Nouveautés
-- Navigation tutoriel mobile avec balayage gauche/droite (gestes) pour passer d'un volet à l'autre
-- Export web et Capacitor sync remis à jour post-correctif
-- Build Android 1.0.2 (code 3) signée production
-
-#### Signature
-- APK/AAB signés avec le keystore de production
-- Validité: jusqu'en 2050
-- SHA256 APK: `fc069fd7b4360b69b2ad0510bf048fd94c0d726e312d49aa63a78905a78a57fe`
-
-## 🚀 Installation
-
-### Méthode 1 : Téléchargement direct
-1. **Activer les sources inconnues** sur votre appareil Android :
-   - Paramètres → Sécurité → Autoriser les sources inconnues
-2. **Télécharger l'APK** en cliquant sur le lien ci-dessus (diffusé aussi via https://nowis.store)
-3. **Ouvrir le fichier** téléchargé
-4. **Suivre les instructions** d'installation
-5. **Lancer l'application** !
-
-### Méthode 2 : ADB (pour développeurs)
-```bash
-adb install "heritier-millionnaire-1.0.2(3)-20251111-1950.apk"
+```sh
+python3 scripts/artifact_manifest.py --check
 ```
 
-## 📱 Prérequis
+Pour recalculer le manifeste après l’ajout volontaire d’un binaire :
 
-- Android 7.0 (API 24) ou supérieur
-- ~20 MB d'espace de stockage
-- Connexion Internet pour le multijoueur
+```sh
+python3 scripts/artifact_manifest.py
+```
 
-## 🌐 Liens
+La CI compare les fichiers avec le manifeste et refuse une différence non documentée.
 
-- **Application web** : https://client-jeux-millionnaire.vercel.app
-- **API Backend** : https://server-jeux-millionnaire.onrender.com
-- **Code source client** : https://github.com/nowis30/client-jeux-millionnaire
-- **Code source serveur** : https://github.com/nowis30/server-jeux-millionnaire
+## Préparer les prochaines publications
 
-## 🔒 Confidentialité
+Construire depuis un commit précis de `mobile-jeux-millionnaire`, puis joindre à chaque Release l’APK ou l’AAB, son SHA-256, la version et le code Android, le commit source, les notes de changements et les résultats de validation sur appareil. Vérifier la signature avec les outils Android avant publication. Conserver les clés de signature hors du dépôt.
 
-L'application respecte le RGPD et affiche un bandeau de consentement lors du premier lancement. Consultez notre [politique de confidentialité](https://client-jeux-millionnaire.vercel.app/confidentialite/) pour plus d'informations.
-
-## 📊 Historique des versions
-
-| Version | Date | Taille | Type | Changements |
-|---------|------|--------|------|-------------|
-| 1.0.2 | 11 nov 2025 | 37.3 MB | Release | Gestes de balayage tutoriel, build 1.0.2 code 3 |
-| 1.0.1 | 11 nov 2025 | 37.3 MB | Release | Correctif consentement AdMob, centre confidentialité, page debug |
-| 1.0 | 9 nov 2025 | 18.23 MB | Release | Production avec AdMob, RGPD, signature |
-| 0.x | 6 nov 2025 | - | Debug | Builds de développement |
-
-## 🏗️ Stack technique
-
-- **Framework** : Capacitor 6
-- **Frontend** : Next.js 14 (export statique)
-- **Backend** : Fastify + PostgreSQL
-- **Publicités** : Google AdMob
-- **Temps réel** : Socket.io
-
----
-
-© 2025 Nowis - Tous droits réservés
+Les nouveaux binaires devraient être joints aux Releases afin d’éviter de grossir l’historique Git. Les fichiers existants sont conservés pour ne pas casser les anciens liens. Les instructions de 2025 sont archivées dans [README-legacy-2025.md](docs/README-legacy-2025.md); elles décrivent une ancienne architecture et ne doivent pas servir de procédure actuelle.
